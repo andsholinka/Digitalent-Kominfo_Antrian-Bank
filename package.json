@@ -1,0 +1,28 @@
+{
+  "name": "digitalent-be-21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build.dev": "tsc -w",
+    "build.prod": "tsc",
+    "start.dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.3.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/elasticsearch": "^5.0.36",
+    "@types/express": "^4.17.8",
+    "@types/morgan": "^1.9.1"
+  }
+}
